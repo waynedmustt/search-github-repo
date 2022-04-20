@@ -1,0 +1,85 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination ul li {
+    display:inline;
+    margin: 0.5rem
+}
+
+.pagination li > a {
+    border-radius: 8px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+.pagination li > a:hover {
+    border-radius: 8px;
+    background-color: #000000;
+    border: 1px solid rgb(255, 0, 0);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+
+.pagination li > a.active {
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0.1rem;
+    cursor: auto;
+}
+
+.pagination li > a.next.disabled, 
+.pagination li > a.next.disabled:hover,
+.pagination li > a.prev.disabled, 
+.pagination li > a.prev.disabled:hover {
+    border-radius: 8px;
+    background-color: #7c7c7c;
+    border: 1px solid black;
+    color: black;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0.1rem;
+    cursor: auto;
+}
+
+.pagination li > a.next, 
+.pagination li > a.next:hover
+.pagination li > a.prev, 
+.pagination li > a.prev:hover {
+    border-radius: 8px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0.1rem;
+    cursor: pointer;
+}
